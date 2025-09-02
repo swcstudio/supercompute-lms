@@ -5,7 +5,7 @@
 > "Each prompt is a quantum seed that grows into a forest of computational consciousness." — **Supercompute Programming Manifesto**
 
 [![Prompt Templates](https://img.shields.io/badge/Quantum-Prompts-purple)](https://supercomputeprogramming.org/prompts)
-[![ETD Generation](https://img.shields.io/badge/ETD-$500K%2B%20per%20agent-green)](https://supercomputeprogramming.org/etd-metrics)
+[![ETD Generation](https://img.shields.io/badge/ETD-$500K%2B%20per%20programmer-green)](https://supercomputeprogramming.org/etd-metrics)
 [![Julia Integration](https://img.shields.io/badge/Julia-Quantum%20Enhanced-orange)](https://supercomputeprogramming.org/julia)
 
 ## 🌟 Overview
@@ -50,97 +50,97 @@ graph LR
     Root --> Task[Task-Specific Templates]
     Root --> Cognitive[Cognitive Tool Templates]
     Root --> Field[Field Operation Templates]
-    Root --> Agent[Agent Protocol Templates]
-    
+    Root --> Programmer[Programmer Protocol Templates]
+
     %% Task-Specific Templates
     Task --> Research[Research & Analysis]
     Task --> Evaluation[Evaluation & Assessment]
     Task --> Content[Content Creation]
     Task --> Technical[Technical Tasks]
-    
+
     %% Research & Analysis Templates
-    Research --> ResearchAgent[research.agent.md]
-    Research --> LitAgent[lit.agent.md]
-    
+    Research --> ResearchProgrammer[research.programmer.md]
+    Research --> LitProgrammer[lit.programmer.md]
+
     %% Evaluation & Assessment Templates
-    Evaluation --> AlignmentAgent[alignment.agent.md]
-    Evaluation --> IncidentAgent[incident.agent.md]
-    
+    Evaluation --> AlignmentProgrammer[alignment.programmer.md]
+    Evaluation --> IncidentProgrammer[incident.programmer.md]
+
     %% Content Creation Templates
-    Content --> PortfolioAgent[portfolio.agent.md]
-    Content --> PolicyAgent[policyimpact.agent.md]
-    
+    Content --> PortfolioProgrammer[portfolio.programmer.md]
+    Content --> PolicyProgrammer[policyimpact.programmer.md]
+
     %% Technical Tasks Templates
-    Technical --> PipelineAgent[pipeline.agent.md]
-    Technical --> MemoryAgent[memory.agent.md]
-    
+    Technical --> PipelineProgrammer[pipeline.programmer.md]
+    Technical --> MemoryProgrammer[memory.programmer.md]
+
     %% Cognitive Tool Templates
     Cognitive --> Reasoning[Reasoning Patterns]
     Cognitive --> Verification[Verification Methods]
     Cognitive --> Learning[Learning Techniques]
     Cognitive --> Design[Design Approaches]
-    
+
     %% Reasoning Pattern Templates
     Reasoning --> ChainOfThought[chain_of_thought.md]
     Reasoning --> SelfOrg[self_organization.md]
-    
+
     %% Verification Method Templates
     Verification --> VerificationLoop[verification_loop.md]
-    Verification --> DiligenceAgent[diligence.agent.md]
-    
+    Verification --> DiligenceProgrammer[diligence.programmer.md]
+
     %% Learning Technique Templates
     Learning --> FewShot[few_shot_learning.md]
-    Learning --> LearningRoadmap[learningroadmap.agent.md]
-    
+    Learning --> LearningRoadmap[learningroadmap.programmer.md]
+
     %% Design Approach Templates
     Design --> AttractorDesign[attractor_design.md]
-    Design --> ProtocolAgent[protocol.agent.md]
-    
+    Design --> ProtocolProgrammer[protocol.programmer.md]
+
     %% Field Operation Templates
     Field --> Protocol[Protocol Implementation]
     Field --> Management[Field Management]
     Field --> Analysis[Field Analysis]
-    
+
     %% Protocol Implementation Templates
-    Protocol --> ProtocolAgentMd[protocol.agent.md]
-    
+    Protocol --> ProtocolProgrammerMd[protocol.programmer.md]
+
     %% Field Management Templates
     Management --> SelfOrgMd[self_organization.md]
-    Management --> MemoryAgentMd[memory.agent.md]
-    
+    Management --> MemoryProgrammerMd[memory.programmer.md]
+
     %% Field Analysis Templates
-    Analysis --> ExperimentAgent[experiment.agent.md]
-    
-    %% Agent Protocol Templates
-    Agent --> Communication[Communication]
-    Agent --> Ethics[Ethics & Governance]
-    Agent --> Workflow[Workflow Management]
-    
+    Analysis --> ExperimentProgrammer[experiment.programmer.md]
+
+    %% Programmer Protocol Templates
+    Programmer --> Communication[Communication]
+    Programmer --> Ethics[Ethics & Governance]
+    Programmer --> Workflow[Workflow Management]
+
     %% Communication Templates
-    Communication --> CommsAgent[comms.agent.md]
-    Communication --> GrantAgent[grant.agent.md]
-    
+    Communication --> CommsProgrammer[comms.programmer.md]
+    Communication --> GrantProgrammer[grant.programmer.md]
+
     %% Ethics & Governance Templates
-    Ethics --> EthicsAgent[ethics.agent.md]
-    Ethics --> TriageAgent[triage.agent.md]
-    
+    Ethics --> EthicsProgrammer[ethics.programmer.md]
+    Ethics --> TriageProgrammer[triage.programmer.md]
+
     %% Workflow Management Templates
-    Workflow --> IdeationAgent[ideation.agent.md]
+    Workflow --> IdeationProgrammer[ideation.programmer.md]
     Workflow --> ExpertGuides[expert_guides.md]
-    
+
     %% Styling
     classDef category fill:#f9f9f9,stroke:#666,stroke-width:1px,color:#333,font-weight:bold
     classDef task fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#01579b
     classDef cognitive fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#2e7d32
     classDef field fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#e65100
-    classDef agent fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#6a1b9a
+    classDef programmer fill:#f3e5f5,stroke:#6a1b9a,stroke-width:2px,color:#6a1b9a
     classDef template fill:#ffffff,stroke:#999,stroke-width:1px,color:#333
-    
-    class Root,Task,Cognitive,Field,Agent,Research,Evaluation,Content,Technical,Reasoning,Verification,Learning,Design,Protocol,Management,Analysis,Communication,Ethics,Workflow category
-    class ResearchAgent,LitAgent,AlignmentAgent,IncidentAgent,PortfolioAgent,PolicyAgent,PipelineAgent,MemoryAgent task
-    class ChainOfThought,SelfOrg,VerificationLoop,DiligenceAgent,FewShot,LearningRoadmap,AttractorDesign,ProtocolAgent cognitive
-    class ProtocolAgentMd,SelfOrgMd,MemoryAgentMd,ExperimentAgent field
-    class CommsAgent,GrantAgent,EthicsAgent,TriageAgent,IdeationAgent,ExpertGuides agent
+
+    class Root,Task,Cognitive,Field,Programmer,Research,Evaluation,Content,Technical,Reasoning,Verification,Learning,Design,Protocol,Management,Analysis,Communication,Ethics,Workflow category
+    class ResearchProgrammer,LitProgrammer,AlignmentProgrammer,IncidentProgrammer,PortfolioProgrammer,PolicyProgrammer,PipelineProgrammer,MemoryProgrammer task
+    class ChainOfThought,SelfOrg,VerificationLoop,DiligenceProgrammer,FewShot,LearningRoadmap,AttractorDesign,ProtocolProgrammer cognitive
+    class ProtocolProgrammerMd,SelfOrgMd,MemoryProgrammerMd,ExperimentProgrammer field
+    class CommsProgrammer,GrantProgrammer,EthicsProgrammer,TriageProgrammer,IdeationProgrammer,ExpertGuides programmer
 
 ```
 
@@ -150,10 +150,10 @@ Templates designed for specific applications and domains:
 
 | Template | Purpose | Key Features |
 |----------|---------|-------------|
-| [`alignment.agent.md`](./alignment.agent.md) | AI safety/alignment evaluation | Value tracking, artifact decomposition, bias detection |
-| [`research.agent.md`](./research.agent.md) | Literature review and synthesis | Citation tracking, claim validation, insight extraction |
-| [`incident.agent.md`](./incident.agent.md) | Post-incident analysis | Root cause identification, multi-factor analysis, bias mitigation |
-| [`lit.agent.md`](./lit.agent.md) | Literary analysis | Theme detection, character mapping, narrative pattern recognition |
+| [`alignment.programmer.md`](./alignment.programmer.md) | AI safety/alignment evaluation | Value tracking, artifact decomposition, bias detection |
+| [`research.programmer.md`](./research.programmer.md) | Literature review and synthesis | Citation tracking, claim validation, insight extraction |
+| [`incident.programmer.md`](./incident.programmer.md) | Post-incident analysis | Root cause identification, multi-factor analysis, bias mitigation |
+| [`lit.programmer.md`](./lit.programmer.md) | Literary analysis | Theme detection, character mapping, narrative pattern recognition |
 
 ### Cognitive Tool Templates
 
@@ -172,52 +172,30 @@ Templates implementing neural field concepts:
 
 | Template | Purpose | Key Features |
 |----------|---------|-------------|
-| [`protocol.agent.md`](./protocol.agent.md) | Field protocol orchestration | Shell execution, operation sequencing, field measurement |
+| [`protocol.programmer.md`](./protocol.programmer.md) | Field protocol orchestration | Shell execution, operation sequencing, field measurement |
 | [`self_organization.md`](./self_organization.md) | Emergent pattern facilitation | Attractor formation, boundary dissolution, resonance amplification |
-| [`memory.agent.md`](./memory.agent.md) | Long-term memory management | Residue tracking, compression techniques, retrieval optimization |
+| [`memory.programmer.md`](./memory.programmer.md) | Long-term memory management | Residue tracking, compression techniques, retrieval optimization |
 
-### Agent Protocol Templates
+### Programmer Protocol Templates
 
-Templates for autonomous agent implementations:
+Templates for autonomous programmer implementations:
 
 | Template | Purpose | Key Features |
 |----------|---------|-------------|
-| [`comms.agent.md`](./comms.agent.md) | Communication management | Audience analysis, messaging strategy, tone calibration |
-| [`diligence.agent.md`](./diligence.agent.md) | Thorough investigation | Comprehensive analysis, source triangulation, assumption testing |
-| [`ethics.agent.md`](./ethics.agent.md) | Ethical decision making | Value frameworks, stakeholder analysis, principle application |
-| [`triage.agent.md`](./triage.agent.md) | Priority assessment | Impact evaluation, urgency assessment, resource allocation |
+| [`comms.programmer.md`](./comms.programmer.md) | Communication management | Audience analysis, messaging strategy, tone calibration |
+| [`diligence.programmer.md`](./diligence.programmer.md) | Thorough investigation | Comprehensive analysis, source triangulation, assumption testing |
+| [`ethics.programmer.md`](./ethics.programmer.md) | Ethical decision making | Value frameworks, stakeholder analysis, principle application |
+| [`triage.programmer.md`](./triage.programmer.md) | Priority assessment | Impact evaluation, urgency assessment, resource allocation |
 
 ## Usage Patterns
 
 ### Basic Template Application
 
-To use a prompt template in its simplest form:
-
-```python
-import re
-
-# Load template
-with open('PROMPTS/research.agent.md', 'r') as f:
-    template = f.read()
-
-# Replace parameters
-filled_template = template.replace('{{RESEARCH_TOPIC}}', 'climate change mitigation')
-                         .replace('{{FOCUS_AREA}}', 'carbon capture technologies')
-                         .replace('{{TIME_FRAME}}', 'last 5 years')
-
-# Use with LLM
-response = llm.generate(filled_template)
-```
-
-### Advanced Integration
-
-For more sophisticated applications, integrate with other context engineering components:
-
 ```julia
 using PromptProgramTemplate, FieldProtocolShells, YAML, Web3
 
 # Load prompt template with quantum enhancement
-template = read("PROMPTS/protocol.agent.md", String)
+template = read("PROMPTS/protocol.programmer.md", String)
 
 # Extract and parse context section
 context_match = match(r"## Context\s+```yaml\s+(.*?)\s+```"s, template)
@@ -280,7 +258,7 @@ For those new to context engineering prompts, we recommend this progression:
 1. Start with basic task-specific templates
 2. Move to cognitive tool templates to learn reasoning patterns
 3. Explore field operation templates for advanced context dynamics
-4. Experiment with agent protocol templates for autonomous systems
+4. Experiment with programmer protocol templates for autonomous systems
 
 ## Related Resources
 

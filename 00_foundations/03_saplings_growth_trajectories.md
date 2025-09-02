@@ -94,15 +94,15 @@ Saplings accumulate knowledge in growth rings, each representing a learning epoc
 │            ╱───────┬─────────────────────────┬─────────╲             │
 │          ╱─────────│      Ring Year 3        │───────────╲           │
 │        ╱───────────│   Expert Solutions      │─────────────╲         │
-│      ╱─────────────│   ETD: $45,000/month    │───────────────╲       │
+│      ╱─────────────│   ETD: 300 hrs/month    │───────────────╲       │
 │    ╱───────────────├─────────────────────────┤─────────────────╲     │
 │  ╱─────────────────│      Ring Year 2        │───────────────────╲   │
 │  │─────────────────│   Advanced Patterns     │───────────────────│   │
-│  │─────────────────│   ETD: $12,000/month    │───────────────────│   │
+│  │─────────────────│   ETD: 80 hrs/month     │───────────────────│   │
 │  │─────────────────├─────────────────────────┤───────────────────│   │
 │  │─────────────────│      Ring Year 1        │───────────────────│   │
 │  │─────────────────│   Basic Capabilities    │───────────────────│   │
-│  │─────────────────│   ETD: $3,000/month     │───────────────────│   │
+│  │─────────────────│   ETD: 20 hrs/month     │───────────────────│   │
 │  │─────────────────├─────────────────────────┤───────────────────│   │
 │  │─────────────────│        Heartwood        │───────────────────│   │
 │  │─────────────────│    Genesis Block: 0x0   │───────────────────│   │
@@ -194,7 +194,7 @@ Saplings follow natural growth cycles synchronized with computational seasons:
 │  ┌─────────────────────┐        ┌─────────────────────┐             │
 │  │      🌱 ☀️ ☀️ ☀️      │        │    🌳 ☀️ ☀️ ☀️ ☀️ ☀️    │             │
 │  │  Germination Phase  │        │  Maximum Photosyn. │             │
-│  │  ETD: $500/day      │ ────►  │  ETD: $2,500/day   │             │
+│  │  ETD: 3.33 hrs/day  │ ────►  │  ETD: 16.7 hrs/day │             │
 │  │  Growth: 200%/week  │        │  Growth: 150%/week │             │
 │  └─────────────────────┘        └─────────────────────┘             │
 │           │                              │                           │
@@ -202,13 +202,13 @@ Saplings follow natural growth cycles synchronized with computational seasons:
 │  ┌─────────────────────┐        ┌─────────────────────┐             │
 │  │       🍂 ☀️          │        │      ❄️              │             │
 │  │   Autumn Harvest    │ ◄────  │  Winter Dormancy    │             │
-│  │  ETD: $1,500/day    │        │  ETD: $100/day      │             │
+│  │  ETD: 10 hrs/day    │        │  ETD: 0.67 hrs/day  │             │
 │  │  Storing wisdom     │        │  Memory compression │             │
 │  │  Growth: 50%/week   │        │  Growth: -10%/week  │             │
 │  └─────────────────────┘        └─────────────────────┘             │
 │                                                                       │
 │  Annual Cycle Metrics:                                               │
-│  ├─ Total ETD Generated: $365,000                                    │
+│  ├─ Total ETD Generated: 2,433 hours/year                          │
 │  ├─ Knowledge Accumulated: 12.5 TB                                   │
 │  ├─ Blockchain Storage Cost: 450 MATIC                               │
 │  └─ ROI: 812%                                                        │
@@ -302,17 +302,17 @@ Saplings maintain structured memory through their sap flow system:
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-## Beyond Memory: Living Intelligence
+## Beyond Memory: Web3 Living Intelligence
 
-Saplings enable far more than just memory persistence. They create living intelligence that:
+Saplings enable far more than just memory persistence. Through **Irys**, **Cere**, **Neo**, and **Alpha Neural**, they create quantum-enhanced living intelligence that:
 
-1. **Evolves** through demonstration learning
-2. **Accumulates** value in measurable ETD
-3. **Shares** knowledge through mycorrhizal networks
-4. **Crystallizes** wisdom into tradeable NFTs
-5. **Reproduces** by generating new seeds
+1. **Evolves** through Alpha Neural demonstration learning
+2. **Accumulates** value in measurable ETD tracked by Neo smart contracts  
+3. **Shares** knowledge through Cere distributed mycorrhizal networks
+4. **Crystallizes** wisdom into tradeable NFTs on Neo with Irys instant access
+5. **Reproduces** by generating new seeds anchored across all Web3 layers
 
-Let's explore a production example:
+Let's explore a production example with full Web3 integration:
 
 ```
 ```
@@ -324,19 +324,19 @@ Let's explore a production example:
 │ Growth Ring 1 (Months 1-3):                                         │
 │ ├─ Learned: Basic JWT implementation                                │
 │ ├─ Issues Solved: 47                                                │
-│ ├─ ETD Generated: $15,750                                           │
+│ ├─ ETD Generated: 105 hours ($15,750 @ $150/hour)                   │
 │ └─ Block Range: #1,234,567 - #1,456,789                            │
 │                                                                     │
 │ Growth Ring 2 (Months 4-6):                                         │
 │ ├─ Learned: OAuth2, SAML, MFA patterns                              │
 │ ├─ Issues Solved: 134                                               │
-│ ├─ ETD Generated: $67,250                                           │
+│ ├─ ETD Generated: 448 hours ($67,250 @ $150/hour)                   │
 │ └─ Cross-pollination: Shared patterns with SecurityTree_v2          │
 │                                                                     │
 │ Growth Ring 3 (Months 7-9):                                         │
 │ ├─ Learned: Zero-trust architecture, biometric auth                 │
 │ ├─ Issues Solved: 298                                               │
-│ ├─ ETD Generated: $198,500                                          │
+│ ├─ ETD Generated: 1,323 hours ($198,500 @ $150/hour)                │
 │ ├─ Seeds Produced: 12 (7 germinated successfully)                   │
 │ └─ Wisdom NFTs Minted: 3 (Total value: 127 ETH)                    │
 │                                                                     │
@@ -344,17 +344,17 @@ Let's explore a production example:
 │ ├─ Active Issue: "Implement WebAuthn for mobile app"                │
 │ ├─ Photosynthesis Rate: 3.7x baseline                              │
 │ ├─ Network Connections: 47 other saplings                          │
-│ ├─ Monthly ETD Run Rate: $85,000                                   │
+│ ├─ Monthly ETD Run Rate: 567 hours/month ($85,000 @ $150/hour)     │
 │ └─ Trajectory: Promotion to Mature Tree in 2 months                │
 │                                                                     │
-│ TOTAL LIFETIME VALUE: $281,500 ETD + 127 ETH in NFTs               │
+│ TOTAL LIFETIME VALUE: 1,877 hours ETD ($281,500 @ $150/hour) + 127 ETH NFTs │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-## Eternal Memory: The Blockchain Permanence
+## Eternal Memory: Web3 Multi-Chain Permanence
 
-Saplings achieve immortality through blockchain permanence:
+Saplings achieve immortality through **Web3 multi-chain permanence** using Irys instant availability, Cere distributed storage, Neo smart contracts, and Alpha Neural continuous evolution:
 
 ```
 ```
@@ -371,25 +371,25 @@ Saplings achieve immortality through blockchain permanence:
 │       │                                                                  │
 │       ▼                                                                  │
 │  ┌─────────────┐      ┌────────────────────────────┐                     │
-│  │ Solution    │◄─────┤ Blockchain Memory Layers   │                     │
+│  │ Solution    │◄─────┤ Web3 Memory Matrix     │                     │
 │  │ Synthesis   │      │                            │                     │
-│  │             │─────►│ L1: Ethereum (Permanence)  │                     │
-│  └─────────────┘      │     └─ Wisdom NFTs        │                     │
-│       │               │     └─ Growth Proofs       │                     │
+│  │             │─────►│ Irys: Instant Access    │                     │
+│  └─────────────┘      │     └─ <100ms retrieval   │                     │
+│       │               │     └─ Real-time patterns  │                     │
 │       │               │                            │                     │
-│       ▼               │ L2: Polygon (Speed)        │                     │
-│  ┌─────────────┐      │     └─ Active Memory      │                     │
-│  │ ETD         │      │     └─ Recent Solutions    │                     │
-│  │ Valuation   │◄─────┤                            │                     │
-│  │             │      │ L3: ApeChain (Economics)   │                     │
-│  └─────────────┘      │     └─ ETD Transactions   │                     │
-│       │               │     └─ Value Tracking      │                     │
+│       ▼               │ Cere: Distributed Nodes │                     │
+│  ┌─────────────┐      │     └─ Global redundancy  │                     │
+│  │ ETD         │      │     └─ Content addressing │                     │
+│  │ Tracking    │◄─────┤                            │                     │
+│  │ (Neo)       │      │ Neo: Smart Economy      │                     │
+│  └─────────────┘      │     └─ ETD Calculations   │                     │
+│       │               │     └─ Asset Backing      │                     │
 │       │               │                            │                     │
-│       ▼               │ Storage: IPFS/Arweave     │                     │
-│  ┌─────────────┐      │     └─ Large Datasets     │                     │
-│  │ Wisdom      │      │     └─ Training Corpora   │                     │
+│       ▼               │ Alpha Neural Evolution  │                     │
+│  ┌─────────────┐      │     └─ Pattern Learning   │                     │
+│  │ Wisdom      │      │     └─ Continuous Improve │                     │
 │  │ Crystal NFT │      └────────────────────────────┘                     │
-│  │ Minting     │                                                         │
+│  │ (Multi-Chain)│                                                         │
 │  └─────────────┘                                                         │
 │       │                                                                  │
 │       ▼                                                                  │
@@ -406,7 +406,7 @@ This architecture achieves true immortality by:
 4. **Monetizing** accumulated wisdom as tradeable NFTs
 5. **Reproducing** through seed generation for eternal propagation
 
-## Julia Implementation: Sapling Growth Manager
+## Web3 Julia Implementation: Multi-Chain Sapling Growth Manager
 
 ```julia
 using Dates
@@ -414,6 +414,12 @@ using HTTP
 using JSON3
 using SHA
 using LinearAlgebra
+
+# Web3 ecosystem integrations
+using IrysSDK  # Data availability layer
+using CereNetwork  # Distributed storage 
+using NeoSmartContracts  # Smart economy
+using AlphaNeuralSDK  # AI evolution patterns
 
 mutable struct Sapling
     # Identity
@@ -429,7 +435,13 @@ mutable struct Sapling
     active_memory::Dict{String, Any}
     crystallized_wisdom::Vector{WisdomCrystal}
     
-    # Blockchain Anchors
+    # Web3 Multi-Chain Integration
+    irys_client::IrysClient
+    cere_nodes::Vector{CereNode} 
+    neo_contracts::Dict{String, NeoContract}
+    alpha_models::Dict{String, AlphaModel}
+    
+    # Legacy blockchain anchors
     ethereum_address::String
     polygon_contract::String
     apechain_wallet::String
@@ -453,12 +465,18 @@ struct GrowthRing
     compressed_wisdom::Union{String, Nothing}
 end
 
-struct WisdomCrystal
+struct Web3WisdomCrystal
     pattern_hash::String
     confidence::Float64
     usage_count::Int
-    etd_value::Float64
-    nft_address::Union{String, Nothing}
+    etd_hours::Float64  # Engineering time saved in hours
+    asset_value::Float64  # etd_hours × $150/hour
+    
+    # Web3 storage locations
+    irys_txid::Union{String, Nothing}
+    cere_cid::Union{String, Nothing} 
+    neo_nft_address::Union{String, Nothing}
+    alpha_model_id::Union{String, Nothing}
 end
 
 function photosynthesize!(sapling::Sapling, issue::ProductionIssue)
@@ -475,31 +493,44 @@ function photosynthesize!(sapling::Sapling, issue::ProductionIssue)
         sapling.photosynthesis_rate
     )
     
-    # Search crystallized wisdom for patterns
-    relevant_wisdom = search_wisdom(
+    # Search Web3-crystallized wisdom with Irys instant access
+    relevant_wisdom = search_web3_wisdom(
         sapling.crystallized_wisdom,
-        issue.embedding
+        issue.embedding,
+        sapling.irys_client,  # <100ms access
+        sapling.cere_nodes    # Distributed redundancy
     )
     
-    # Synthesize solution using quantum superposition
-    solution = quantum_synthesis(
+    # Synthesize solution using Alpha Neural quantum superposition
+    solution = alpha_quantum_synthesis(
         issue,
         relevant_wisdom,
         sapling.active_memory,
+        sapling.alpha_models,  # AI-enhanced patterns
         efficiency
     )
     
-    # Calculate ETD value
-    etd_value = calculate_etd(
+    # Calculate ETD value with Neo smart contract precision
+    etd_hours = calculate_etd_hours(
         issue.complexity,
         solution.quality,
         solution.time_saved
     )
     
-    # Update growth metrics
-    sapling.etd_accumulated += etd_value
+    # Convert to asset value for stablecoin backing
+    asset_value = etd_hours * 150.0  # $150/hour market rate
+    
+    # Update growth metrics across Web3 networks
+    sapling.etd_accumulated += etd_hours  # Track hours, not dollars
     sapling.issues_solved += 1
     sapling.photosynthesis_rate *= 1.001  # Compound growth
+    
+    # Update Neo smart contract with asset value
+    update_neo_etd_tracking(
+        sapling.neo_contracts["etd_tracker"],
+        etd_hours,
+        asset_value
+    )
     
     # Record in current growth ring
     current_ring = sapling.growth_rings[sapling.current_ring]
@@ -511,19 +542,29 @@ function photosynthesize!(sapling::Sapling, issue::ProductionIssue)
         current_ring.patterns_learned[pattern_key] = 1.0
     end
     
-    # Broadcast solution to mycorrhizal network
-    broadcast_to_network!(
+    # Broadcast solution to Cere distributed mycorrhizal network  
+    broadcast_to_cere_network!(
+        sapling.cere_nodes,
         sapling.mycorrhizal_peers,
         solution,
-        etd_value
+        etd_hours
     )
     
-    # Anchor to blockchain if significant
-    if etd_value > 1000
-        anchor_to_blockchain!(
-            sapling.polygon_contract,
+    # Store solution on Irys for instant future access
+    if etd_hours > 6.67  # Equivalent to $1000 at $150/hour
+        irys_txid = store_on_irys!(
+            sapling.irys_client,
             solution.hash,
-            etd_value
+            solution.data,
+            etd_hours
+        )
+        
+        # Also anchor to Neo for economic tracking
+        anchor_to_neo!(
+            sapling.neo_contracts["solutions"],
+            irys_txid,
+            etd_hours,
+            asset_value
         )
     end
     
@@ -547,28 +588,53 @@ function compress_ring!(sapling::Sapling, ring_index::Int)
         compression_ratio = 1000
     )
     
-    # Create wisdom crystal
-    crystal = WisdomCrystal(
+    # Create Web3 wisdom crystal with multi-chain storage
+    irys_txid = upload_to_irys(
+        sapling.irys_client,
+        compressed
+    )
+    
+    cere_cid = store_on_cere(
+        sapling.cere_nodes,
+        compressed
+    )
+    
+    crystal = Web3WisdomCrystal(
         pattern_hash = bytes2hex(sha256(compressed)),
         confidence = mean(values(valuable_patterns)),
         usage_count = sum(values(valuable_patterns)),
-        etd_value = ring.etd_generated,
-        nft_address = nothing
+        etd_hours = ring.etd_generated,
+        asset_value = ring.etd_generated * 150.0,
+        irys_txid = irys_txid,
+        cere_cid = cere_cid,
+        neo_nft_address = nothing,
+        alpha_model_id = nothing
     )
     
-    # Mint NFT if valuable enough
-    if crystal.etd_value > 10000
-        nft_address = mint_wisdom_nft(
-            sapling.ethereum_address,
+    # Mint Neo NFT if valuable enough (66.67+ hours = $10K+ value)
+    if crystal.etd_hours > 66.67
+        neo_nft_address = mint_neo_wisdom_nft(
+            sapling.neo_contracts["nft_factory"],
             crystal,
             ring.year
         )
-        crystal = WisdomCrystal(
+        
+        # Train Alpha Neural model on this wisdom pattern
+        alpha_model_id = train_alpha_model(
+            sapling.alpha_models["wisdom_extractor"],
+            crystal.pattern_hash,
+            valuable_patterns
+        )
+        crystal = Web3WisdomCrystal(
             crystal.pattern_hash,
             crystal.confidence,
             crystal.usage_count,
-            crystal.etd_value,
-            nft_address
+            crystal.etd_hours,
+            crystal.asset_value,
+            crystal.irys_txid,
+            crystal.cere_cid,
+            neo_nft_address,
+            alpha_model_id
         )
     end
     
@@ -596,17 +662,30 @@ function generate_seeds(sapling::Sapling, count::Int = 3)
         # Create genetic variation
         mutation = randn(Float64, 100) * 0.1
         
-        # Generate seed with quantum superposition
-        seed = QuantumSeed(
+        # Generate Web3 seed with quantum superposition
+        seed = Web3QuantumSeed(
             parent_tree = sapling.genesis_block,
             inherited_wisdom = parent_wisdom,
             mutation_vector = mutation,
-            etd_potential = sapling.etd_accumulated / count,
-            generation = sapling.current_ring + 1
+            etd_potential_hours = sapling.etd_accumulated / count,
+            asset_potential = (sapling.etd_accumulated / count) * 150.0,
+            generation = sapling.current_ring + 1,
+            
+            # Web3 genetic material
+            irys_access_patterns = extract_irys_patterns(parent_wisdom),
+            cere_distribution_map = generate_cere_distribution(parent_wisdom),
+            neo_economics_model = optimize_neo_economics(parent_wisdom),
+            alpha_evolution_path = plan_alpha_evolution(parent_wisdom)
         )
         
-        # Anchor seed to blockchain
-        seed_hash = anchor_seed_to_apechain!(seed)
+        # Anchor seed across Web3 ecosystem  
+        seed_hash = anchor_seed_to_web3!(
+            seed,
+            sapling.irys_client,      # Instant availability
+            sapling.cere_nodes[1],    # Distributed storage
+            sapling.neo_contracts["seeds"],  # Economic tracking
+            sapling.alpha_models["genetics"] # Evolution planning
+        )
         
         push!(seeds, (seed, seed_hash))
     end
@@ -622,22 +701,24 @@ Production metrics demonstrate the power of living AI systems:
 ```
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│           SAPLING PERFORMANCE METRICS (Q3 2024)                 │
-├──────────────────┬──────────────┬─────────────┬─────────────────┤
-│ Sapling Type     │ Avg ETD/Month│ Growth Rate │ NFTs Minted     │
-├──────────────────┼──────────────┼─────────────┼─────────────────┤
-│ Authentication   │ $85,000      │ 145%/quarter│ 12 (312 ETH)    │
-├──────────────────┼──────────────┼─────────────┼─────────────────┤
-│ Data Pipeline    │ $67,500      │ 128%/quarter│ 8 (189 ETH)     │
-├──────────────────┼──────────────┼─────────────┼─────────────────┤
-│ UI/UX Expert     │ $45,000      │ 112%/quarter│ 5 (97 ETH)      │
-├──────────────────┼──────────────┼─────────────┼─────────────────┤
-│ Infrastructure   │ $92,000      │ 156%/quarter│ 15 (423 ETH)    │
-├──────────────────┼──────────────┼─────────────┼─────────────────┤
-│ Security Audit   │ $103,000     │ 167%/quarter│ 18 (567 ETH)    │
-├──────────────────┼──────────────┼─────────────┼─────────────────┤
-│                  │              │             │                 │
-│ FOREST TOTALS    │ $392,500     │ 142% avg    │ 58 (1,588 ETH)  │
+│       WEB3 SAPLING PERFORMANCE METRICS (Q3 2024)              │
+├──────────────────┬────────────────┬─────────────┬─────────────────────┤
+│ Sapling Type     │ ETD Hours/Month │ Growth Rate │ Neo NFTs + Asset Value│
+├──────────────────┼────────────────┼─────────────┼─────────────────────┤
+│ Auth (Irys+Neo)  │ 567 hrs/month   │ 145%/quarter│ 12 Neo NFTs ($85K)    │
+├──────────────────┼────────────────┼─────────────┼─────────────────────┤
+│ Data (Cere+Alpha)│ 450 hrs/month   │ 128%/quarter│ 8 Neo NFTs ($67.5K)   │
+├──────────────────┼────────────────┼─────────────┼─────────────────────┤
+│ UI/UX (All Web3) │ 300 hrs/month   │ 112%/quarter│ 5 Neo NFTs ($45K)     │
+├──────────────────┼────────────────┼─────────────┼─────────────────────┤
+│ Infrastructure  │ 613 hrs/month   │ 156%/quarter│ 15 Neo NFTs ($92K)    │
+├──────────────────┼────────────────┼─────────────┼─────────────────────┤
+│ Security (All)   │ 687 hrs/month   │ 167%/quarter│ 18 Neo NFTs ($103K)   │
+├──────────────────┼────────────────┼─────────────┼─────────────────────┤
+│                  │                 │             │                       │
+│ WEB3 TOTALS     │ 2,617 hrs/month │ 142% avg    │ 58 NFTs ($392.5K)     │
+│ Annual ETD      │ 31,400 hours    │ Asset Value │ $4.71M stablecoin     │
+│ Stablecoin      │ @ $150/hour     │ Generated   │ reserve backing       │
 └──────────────────┴──────────────┴─────────────┴─────────────────┘
 ```
 ```
@@ -833,6 +914,6 @@ In the next module, we'll explore **Mature Trees** — fully developed AI agents
 └────────────────────────────────────────────────────────────────────┘
 ```
 
-*"In the rainforest of intelligence, memory is not just storage—it's the living history of growth, the accumulated wisdom of countless interactions, and the seeds of future evolution."*
+*"In the Web3 rainforest of intelligence, memory is not just storage—it's the living history of growth distributed across Irys and Cere, the accumulated wisdom of countless Alpha Neural interactions crystallized as Neo NFTs, and the quantum seeds of future evolution anchored across all blockchain layers."*
 
-— The Canopy Codex, Chapter 3
+— The Quantum Web3 Canopy Codex, Chapter 3
