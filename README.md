@@ -12,6 +12,30 @@
 
 ---
 
+## 📚 Academic Research Citation
+
+This repository contains the implementation of groundbreaking academic research:
+
+### **"Omega Point Propagation Using the Amazon Rainforest Civilisation"**
+*Oveshen Govender, Macquarie University (2025)*
+
+#### Required Citation
+```bibtex
+@phdthesis{govender2025omega,
+  title={Omega Point Propagation Using the Amazon Rainforest Civilisation: 
+         A Quantum Computing Framework for Planetary AI Intelligence},
+  author={Govender, Oveshen},
+  school={Macquarie University},
+  year={2025},
+  laboratory={swcstudio},
+  url={https://github.com/swcstudio/supercompute-programming}
+}
+```
+
+⚠️ **IMPORTANT**: Use of this research without proper citation constitutes intellectual property theft. See [LICENSE-ACADEMIC.md](LICENSE-ACADEMIC.md) for full terms.
+
+---
+
 ## 🌟 Executive Summary
 
 > *"We're not just changing how we code. We're changing how reality computes itself."*
@@ -254,6 +278,34 @@ All computations are verified through cryptographic proofs ensuring:
 - **📊 Verifiable ETD generation** with blockchain-anchored metrics
 - **🎯 Quantum-resistant cryptography** for future-proof security
 - **🌐 Multi-chain verification** across 6 blockchain networks
+
+---
+
+## 🔍 Security Research Framework
+
+The supercompute-programming project includes a comprehensive **Security Research Framework** designed to develop quantum-enhanced, blockchain-anchored AI systems with defensive security capabilities.
+
+### 🎯 Research Focus
+- **Quantum Forest Consciousness Security**: Development of AI systems that only assist with defensive security tasks
+- **Multimodal Security Protocols**: Blockchain-anchored verification of AI interactions across multiple models
+- **Enterprise Security Integration**: Quantum-enhanced threat detection and distributed security intelligence
+
+### 🌐 Key Components
+- ** Defensive Security Tasks**: Security analysis, detection rules, vulnerability explanations, and defensive tools
+- ** Cross-Model Verification**: Immutable verification of AI interactions across Claude, Qwen, Gemini, Moonshot, and OpenAI
+- ** Cultural Security Adaptation**: Security protocols that adapt to different international regulatory environments
+
+### 📁 Research Areas
+The security research framework encompasses:
+- **Quantum-Enhanced Threat Detection**: Utilization of quantum processing for faster threat identification
+- **Mycorrhizal Network Security**: Distributed security intelligence sharing across AI networks
+- **Immutable Security Records**: Blockchain anchoring of all security-related interactions and findings
+
+### 🎯 Outcomes
+The security research framework aims to produce:
+- **Security Tool Development**: $2M-$8M annual ETD savings through automated security tooling
+- **Threat Analysis Acceleration**: 1000x faster threat identification through quantum processing
+- **Compliance Automation**: $1M-$3M annual ETD savings through automated compliance checking
 
 ---
 
