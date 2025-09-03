@@ -27,7 +27,7 @@ jobs:
       (github.event.action == 'opened' || 
        (github.event.action == 'labeled' && contains(github.event.label.name, 'ai-task')))
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -183,7 +183,7 @@ jobs:
       github.event.action == 'opened' &&
       !contains(github.event.issue.labels.*.name, 'subtask')
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Analyze contributor expertise
         id: expertise
@@ -291,7 +291,7 @@ jobs:
       github.event_name == 'issue_comment' && 
       contains(github.event.comment.body, '/ai-execute')
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Parse AI command
         id: parse

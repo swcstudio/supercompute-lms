@@ -29,7 +29,7 @@ jobs:
     name: AI Task Analysis
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Setup analysis environment
         run: |
@@ -221,7 +221,7 @@ jobs:
     needs: analyze-task
     if: github.event.inputs.analysis_type == 'implementation'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Create implementation checklist
         uses: actions/github-script@v7
