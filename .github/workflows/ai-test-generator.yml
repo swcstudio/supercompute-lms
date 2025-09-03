@@ -235,7 +235,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Download Generated Tests
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v5
         with:
           name: generated-tests
           
