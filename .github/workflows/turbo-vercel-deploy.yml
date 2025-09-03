@@ -19,7 +19,7 @@ jobs:
     outputs:
       affected: ${{ steps.affected.outputs.affected }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
           
@@ -55,7 +55,7 @@ jobs:
       matrix:
         target: [core, next, remix, shared]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       
       - name: Setup Build Environment
         uses: ./.github/actions/setup-build-env
@@ -89,7 +89,7 @@ jobs:
     needs: build-and-test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
@@ -123,7 +123,7 @@ jobs:
     needs: build-and-test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
@@ -152,7 +152,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       
       - name: Run Lighthouse CI
         uses: treosh/lighthouse-ci-action@v10

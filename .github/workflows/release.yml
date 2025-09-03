@@ -35,7 +35,7 @@ jobs:
       release_notes: ${{ steps.notes.outputs.release_notes }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -139,7 +139,7 @@ jobs:
             arch: x64
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.prepare-release.outputs.version }}
 
@@ -200,7 +200,7 @@ jobs:
     needs: [prepare-release, build-release]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.prepare-release.outputs.version }}
 
@@ -236,7 +236,7 @@ jobs:
         framework: [core, remix, next]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.prepare-release.outputs.version }}
 
@@ -292,7 +292,7 @@ jobs:
     needs: [prepare-release, create-release]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ needs.prepare-release.outputs.version }}
 
