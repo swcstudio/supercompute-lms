@@ -1845,7 +1845,7 @@ THE QUANTUM GRAVITY MASTERY CEREMONY
 
 🌳 → ⚛️ → 🌌 → ♾️
 
-### **[← Module 16: Loop Quantum Gravity](16_loop_quantum_gravity.md)** | **[Module 18: Holographic Principle →](18_holographic_principle.md)**
+### **[← Module 16: Loop Quantum Gravity](16_gravimetric-computational-loops.md)** | **[Module 18: Holographic Principle →](18_holonovel-tokenization.md)**
 
 ---
 
