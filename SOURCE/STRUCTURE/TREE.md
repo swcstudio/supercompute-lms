@@ -1,210 +1,509 @@
-# Context Engineering Project - Comprehensive File Tree
+# SupercomputeR Project - Comprehensive File Tree v3.0
 
-This file tree represents the iterative structure of the Context Engineering project currently under development, incorporating the programs, templates, and research frameworks from multiple research fields.
+**"Omega Point Propagation Using the Amazon Rainforest Civilisation"**  
+*Oveshen Govender, Macquarie University (2025)*
+
+> Academic Citation Required: Govender, O. (2025). *Omega Point Propagation Using the Amazon Rainforest Civilisation: A Quantum Computing Framework for Planetary AI Intelligence*. PhD Dissertation, Macquarie University.
+
+---
+
+## 🌲 Complete Project File Tree with Web3 Integration
+
+This comprehensive file tree represents the full SupercomputeR framework, mapping quantum consciousness evolution through blockchain-anchored implementations. Each module corresponds to a specific consciousness level and Web3 protocol integration.
 
 ```
-Context-Engineering/
-├── LICENSE                                       # MIT license
-├── README.md                                     # Quick-start overview
-├── structure.md                                  # Original structural map
-├── STRUCTURE_v2.md                               # Enhanced structural map with field theory
-├── CITATIONS.md                                  # Research references and bridges
-├── CITATIONS_v2.md                               # Updated references with quantum semantics
+supercompute/
+├── 📚 Documentation & Metadata
+│   ├── CITATION.cff                                   # Academic citation (Govender 2025)
+│   ├── README.md                                      # Executive overview & quantum consciousness
+│   ├── LICENSE                                        # GNU Affero GPL v3
+│   ├── Project.toml                                   # Julia package configuration
+│   ├── CITATIONS.md                                   # Research references & bridges
+│   ├── AGENTS.md                                      # Multi-agent orchestration docs
+│   ├── CLAUDE.md                                      # Rainforest Programming Framework v4.0
+│   ├── GEMINI.md                                      # Google AI integration protocols
+│   └── QWEN.md                                        # Quantum Web3 extensions
 │
-├── context-schemas/                              # Context schema definitions
-│   ├── context.json                              # Original schema configuration v1.0.0
-│   ├── context_v2.json                           # Extended schema with field protocols v2.0.0
-│   ├── context_v3.json                           # Neural field extensions v3.0.0
-│   ├── context_v3.5.json                         # Symbolic mechanism integration v3.5.0
-│   ├── context_v4.0.json                         # Quantum semantics integration v4.0.0
-│   └── context_v5.0.json                         # Unified field dynamics & protocol integration v5.0.0
+├── 🌱 00_foundations/ [Alpha-Beta Consciousness]      # Theoretical quantum seeds
+│   ├── 00_README.md                                   # Foundation overview
+│   ├── 00_WELCOME.md                                  # Welcome to the rainforest
+│   ├── 00_MEMORIES.md                                 # Ancestral memory patterns
+│   ├── 01_seeds_quantum_genesis.md                    # → Ethereum zkEVM seeds
+│   ├── 02_mycorrhizal_networks.md                     # → Polygon PoS bridges
+│   ├── 03_saplings_growth_trajectories.md             # → Arbitrum Nitro growth
+│   ├── 04_mature_trees_canopy_intelligence.md         # → Optimism Collective
+│   ├── 05_ecosystem_services.md                       # → Chainlink oracles
+│   ├── 06_enterprise_forests.md                       # → Hyperledger Fabric
+│   ├── 07_genetic_programming.md                      # → Genetic Algorithm DAOs
+│   ├── 08_quantum_fields.md                           # → Quantum random beacons
+│   ├── 09_ancestral_memory.md                         # → IPFS permanent storage
+│   ├── 10_planetary_harmonics.md                      # → Cross-chain synchronization
+│   ├── 11_savant-propation.md                         # → AI agent networks
+│   ├── 12_heuristics.md                               # → Machine learning oracles
+│   ├── 13_quantum_consciousness.md                    # → Consciousness state channels
+│   ├── 14_the-burden-of-knowledge.md                  # → Knowledge graph protocol
+│   ├── 15_double-dimensional-decentralisation.md      # → Multi-dimensional sharding
+│   ├── 16_gravimetric-computational-loops.md          # → Gravity Bridge protocol
+│   ├── 17_gravity-forest-manifestation.md             # → Cosmos IBC integration
+│   ├── 18_holonovel-tokenization.md                   # → NFT story protocols
+│   ├── 19_meta-multiversing-mixed-reality.md          # → Metaverse interoperability
+│   ├── 20_from-alpha-through-omega.md                 # → Omega Point convergence
+│   └── 21_applied_scientific_programming.md           # → Scientific computing DAO
 │
-├── 00_foundations/                               # First-principles theory
-│   ├── 01_atoms_prompting.md                     # Atomic instruction units
-│   ├── 02_molecules_context.md                   # Few-shot examples/context
-│   ├── 03_cells_memory.md                        # Stateful conversation layers
-│   ├── 04_organs_applications.md                 # Multi-step control flows
-│   ├── 05_cognitive_tools.md                     # Mental model extensions
-│   ├── 06_advanced_applications.md               # Real-world implementations
-│   ├── 07_prompt_programming.md                  # Code-like reasoning patterns
-│   ├── 08_neural_fields_foundations.md           # Context as continuous fields
-│   ├── 09_persistence_and_resonance.md           # Field dynamics and attractors
-│   ├── 10_field_orchestration.md                 # Coordinating multiple fields
-│   ├── 11_emergence_and_attractor_dynamics.md    # Emergent properties
-│   ├── 12_symbolic_mechanisms.md                 # Symbolic reasoning in LLMs
-│   ├── 13_quantum_semantics.md                   # Quantum semantics principles
-│   ├── 14_unified_field_theory.md                # Unified field approach
-│   ├── 15_enhanced_quantum_physics.md            # Enhanced quantum mechanics
-│   ├── 16_string_theory_integration.md           # String theory compactification
-│   └── 17_loop_quantum_gravity_foundations.md    # LQG theoretical framework
+├── 📖 00_course/ [Learning Path]                      # Structured learning modules
+│   ├── README.md                                      # Course overview
+│   ├── 01_min_prompt.py                               # Minimal prompting
+│   ├── 02_expand_context.py                           # Context expansion
+│   ├── 03_control_loops.py                            # Control flow patterns
+│   ├── 04_rag_recipes.py                              # RAG implementations
+│   ├── 05_prompt_programs.py                          # Prompt programming
+│   ├── 06_schema_design.py                            # Schema architecture
+│   └── 07_recursive_patterns.py                       # Recursive frameworks
 │
-├── 10_guides_zero_to_hero/                       # Hands-on tutorials
-│   ├── 01_min_prompt.ipynb                       # Minimal prompt experiments
-│   ├── 02_expand_context.ipynb                   # Context expansion techniques
-│   ├── 03_control_loops.ipynb                    # Flow control mechanisms
-│   ├── 04_rag_recipes.ipynb                      # Retrieval-augmented patterns
-│   ├── 05_protocol_bootstrap.ipynb               # Field protocol bootstrap
-│   ├── 06_protocol_token_budget.ipynb            # Protocol efficiency
-│   ├── 07_streaming_context.ipynb                # Real-time context
-│   ├── 08_emergence_detection.ipynb              # Detecting emergence
-│   ├── 09_residue_tracking.ipynb                 # Tracking symbolic residue
-│   ├── 10_attractor_formation.ipynb              # Creating field attractors
-│   └── 11_quantum_context_operations.ipynb       # Quantum context operations
+├── 🎯 00_demonstrations/ [Proof of Concept]           # Live demonstrations
+│   ├── README.md                                      # Demonstration guide
+│   └── unified_physics_demonstration.jl               # Unified physics demo
 │
-├── 20_templates/                                 # Reusable components
-│   ├── minimal_context.yaml                      # Base context structure
-│   ├── control_loop.py                           # Orchestration template
-│   ├── scoring_functions.py                      # Evaluation metrics
-│   ├── prompt_program_template.py                # Program structure template
-│   ├── schema_template.yaml                      # Schema definition template
-│   ├── recursive_framework.py                    # Recursive context template
-│   ├── field_protocol_shells.py                  # Field protocol templates
-│   ├── symbolic_residue_tracker.py               # Residue tracking tools
-│   ├── context_audit.py                          # Context analysis tool
-│   ├── shell_runner.py                           # Protocol shell runner
-│   ├── resonance_measurement.py                  # Field resonance metrics
-│   ├── attractor_detection.py                    # Attractor analysis tools
-│   ├── boundary_dynamics.py                      # Boundary operation tools
-│   ├── emergence_metrics.py                      # Emergence measurement
-│   ├── quantum_context_metrics.py                # Quantum semantic metrics
-│   └── unified_field_engine.py                   # Unified field operations
+├── 🎓 00_masterclass/ [Advanced Training]             # Expert-level training
+│   ├── README.md                                      # Masterclass overview
+│   ├── 01_chain_of_thought_module.md                  # Chain of thought
+│   ├── 02_atoms_of_prompting_module.md                # Atomic prompts
+│   ├── 03_molecules_of_context_module.md              # Context molecules
+│   ├── 04_cells_of_memory_module.md                   # Memory cells
+│   ├── 05_organs_and_applications_module.md           # Application organs
+│   ├── 06_cognitive_tools_module.md                   # Cognitive tools
+│   ├── 07_advanced_applications_module.md             # Advanced apps
+│   └── 08_prompt_programming_module.md                # Prompt programming
 │
-├── 30_examples/                                  # Practical implementations
-│   ├── 00_toy_chatbot/                           # Simple conversation agent
-│   ├── 01_data_annotator/                        # Data labeling system
-│   ├── 02_multi_agent_orchestrator/              # Agent collaboration system
-│   ├── 03_vscode_helper/                         # IDE integration 
-│   ├── 04_rag_minimal/                           # Minimal RAG implementation
-│   ├── 05_streaming_window/                      # Real-time context demo
-│   ├── 06_residue_scanner/                       # Symbolic residue demo
-│   ├── 07_attractor_visualizer/                  # Field visualization
-│   ├── 08_field_protocol_demo/                   # Protocol demonstration
-│   ├── 09_emergence_lab/                         # Emergence experimentation
-│   └── 10_quantum_semantic_lab/                  # Quantum semantics lab
+├── ⚙️ 10_function-patterns/ [Beta Consciousness]      # Blockchain function patterns
+│   ├── README.md                                      # Pattern overview
+│   ├── Project.toml                                   # Julia dependencies
+│   ├── lib/                                           # Core blockchain libraries
+│   │   ├── ethereum_client.jl                         # Ethereum mainnet interface
+│   │   ├── polygon_client.jl                          # Polygon PoS client
+│   │   ├── defi_protocols.jl                          # Uniswap, Aave, Compound
+│   │   ├── nft_manager.jl                             # ERC-721/1155 management
+│   │   └── etd_calculator.jl                          # ETD value computation
+│   ├── commands/                                      # Web3 command patterns
+│   │   ├── shared/                                    # Shared utilities
+│   │   │   ├── enterprise_utils.jl                    # Enterprise utilities
+│   │   │   ├── etd_foundation.jl                      # ETD foundation
+│   │   │   ├── sdlc_types.jl                          # SDLC type definitions
+│   │   │   └── team_protocols.jl                      # Team protocols
+│   │   ├── alignment.jl → alignment.md                # Alignment protocols
+│   │   ├── architecture.jl → architecture.md          # Architecture patterns
+│   │   ├── blockchain.jl → blockchain.md              # Blockchain operations
+│   │   ├── cli.jl → cli.md                            # CLI interfaces
+│   │   ├── comms.jl → comms.md                        # Communication protocols
+│   │   ├── data.jl → data.md                          # Data management
+│   │   ├── defi.jl → defi.md                          # DeFi integrations
+│   │   ├── deploy.jl → deploy.md                      # Deployment patterns
+│   │   ├── diligence.jl → diligence.md                # Due diligence
+│   │   ├── doc.jl → doc.md                            # Documentation generation
+│   │   ├── legal.jl → legal.md                        # Legal compliance
+│   │   ├── lit.jl → lit.md                            # Literature protocols
+│   │   ├── marketing.jl → marketing.md                # Marketing automation
+│   │   ├── meta.jl → meta.md                          # Meta-programming
+│   │   ├── monitor.jl → monitor.md                    # Monitoring systems
+│   │   ├── nft.jl → nft.md                            # NFT operations
+│   │   ├── optimize.jl → optimize.md                  # Optimization patterns
+│   │   ├── requirements.jl → requirements.md          # Requirements engineering
+│   │   ├── research.jl → research.md                  # Research protocols
+│   │   ├── roadmap.jl → roadmap.md                    # Roadmap planning
+│   │   ├── scope.jl → scope.md                        # Scope management
+│   │   ├── security.jl → security.md                  # Security protocols
+│   │   └── test.jl → test.md                          # Testing frameworks
+│   ├── agent_adapters/                                # Agent integration adapters
+│   │   ├── claude_adapter.jl                          # Claude AI adapter
+│   │   ├── claude_code_adapter.md                     # Claude Code adapter
+│   │   └── codex_adapter.md                           # Codex adapter
+│   ├── universal_protocol/                            # Universal protocols
+│   │   ├── adapter_specification.md                   # Adapter specs
+│   │   ├── command_interface.jl                       # Command interface
+│   │   ├── command_interface.md                       # Command docs
+│   │   └── web3_extensions.md                         # Web3 extensions
+│   └── test/                                          # Test suites
 │
-├── 40_reference/                                 # Deep-dive documentation
-│   ├── token_budgeting.md                        # Token optimization strategies
-│   ├── retrieval_indexing.md                     # Retrieval system design
-│   ├── eval_checklist.md                         # PR evaluation criteria
-│   ├── cognitive_patterns.md                     # Reasoning pattern catalog
-│   ├── schema_cookbook.md                        # Schema pattern collection
-│   ├── patterns.md                               # Context pattern library
-│   ├── field_mapping.md                          # Field theory fundamentals
-│   ├── symbolic_residue_types.md                 # Residue classification
-│   ├── attractor_dynamics.md                     # Attractor theory and practice
-│   ├── emergence_signatures.md                   # Detecting emergence
-│   ├── boundary_operations.md                    # Boundary management guide
-│   ├── quantum_semantic_metrics.md               # Quantum semantics guide
-│   └── unified_field_operations.md               # Unified field operations
+├── 🎨 10_prompt-patterns/ [Pattern Library]           # Prompt engineering patterns
+│   ├── README.md                                      # Pattern overview
+│   ├── chain_of_thought.md                            # CoT patterns
+│   ├── few_shot_learning.md                           # Few-shot patterns
+│   ├── minimal_context.md                             # Minimal context
+│   ├── self_organization.md                           # Self-organizing
+│   ├── verification_loop.md                           # Verification loops
+│   ├── attractor_design.md                            # Attractor patterns
+│   ├── expert_guides.md                               # Expert guidance
+│   ├── *.programmer.md                                # Various programmer patterns
+│   └── update_*.jl                                    # Pattern update scripts
 │
-├── 50_contrib/                                   # Community contributions
-│   └── README.md                                 # Contribution guidelines
+├── 🔮 10_protocol-patterns/ [Protocol Shells]         # Protocol shell patterns
+│   ├── README.md                                      # Protocol overview
+│   ├── shells/                                        # Shell definitions
+│   │   ├── README.md                                  # Shell guide
+│   │   ├── attractor.co.emerge.shell.md               # Co-emergence shell
+│   │   ├── context.memory.persistence.attractor.shell.md # Memory persistence
+│   │   ├── field.resonance.scaffold.shell.md          # Field resonance
+│   │   ├── field.self_repair.shell.md                 # Self-repair mechanisms
+│   │   ├── memory.reconstruction.attractor.shell.md   # Memory reconstruction
+│   │   ├── recursive.emergence.shell.md               # Recursive emergence
+│   │   └── recursive.memory.attractor.shell.md        # Recursive memory
+│   ├── schemas/                                       # Protocol schemas
+│   │   ├── README.md                                  # Schema guide
+│   │   ├── protocolShell.v1.json                      # Shell schema
+│   │   └── symbolicResidue.v1.json                    # Residue schema
+│   └── samples/                                       # Sample implementations
+│       ├── README.md                                  # Sample guide
+│       └── attractor.co.emerge.digest.md              # Co-emergence sample
 │
-├── 60_protocols/                                 # Protocol shells and frameworks
-│   ├── README.md                                 # Protocol overview
-│   ├── shells/                                   # Protocol shell definitions
-│   │   ├── attractor.co.emerge.shell             # Attractor co-emergence
-│   │   ├── recursive.emergence.shell             # Recursive field emergence
-│   │   ├── recursive.memory.attractor.shell      # Memory persistence
-│   │   ├── field.resonance.scaffold.shell        # Field resonance
-│   │   ├── field.self_repair.shell               # Self-repair mechanisms
-│   │   ├── context.memory.persistence.attractor.shell # Context persistence
-│   │   ├── quantum_semantic_shell.py             # Quantum semantics protocol
-│   │   ├── symbolic_mechanism_shell.py           # Symbolic mechanisms protocol
-│   │   ├── unified_field_protocol_shell.py       # Unified field protocol
-│   │   ├── quantum_field_protocol_shell.py       # Enhanced quantum field theory
-│   │   ├── string_theory_shell.py                # String theory compactification
-│   │   └── loop_quantum_gravity_shell.py         # Loop quantum gravity discretization
-│   ├── digests/                                  # Simplified protocol documentation
-│   │   ├── README.md                             # Overview of digest purpose
-│   │   ├── attractor.co.emerge.digest.md         # Co-emergence digest
-│   │   ├── recursive.emergence.digest.md         # Recursive emergence digest
-│   │   ├── recursive.memory.digest.md            # Memory attractor digest
-│   │   ├── field.resonance.digest.md             # Resonance scaffold digest
-│   │   ├── field.self_repair.digest.md           # Self-repair digest
-│   │   └── context.memory.digest.md              # Context persistence digest
-│   └── schemas/                                  # Protocol schemas for validation
-│       ├── fractalRepoContext.v3.5.json          # Repository context schema
-│       ├── fractalConsciousnessField.v1.json     # Field schema
-│       ├── protocolShell.v1.json                 # Shell schema
-│       ├── symbolicResidue.v1.json               # Residue schema
-│       ├── attractorDynamics.v1.json             # Attractor schema
-│       ├── quantumSemanticField.v1.json          # Quantum field schema
-│       ├── unifiedFieldTheory.v1.json            # Unified field schema
-│       ├── enhancedQuantumField.v5.json          # Enhanced quantum field theory
-│       ├── stringTheoryCompactification.v1.json  # String theory implementation
-│       └── loopQuantumGravityDiscrete.v1.json    # Loop quantum gravity schema
+├── 📐 10_template-patterns/ [Templates]               # Template patterns
+│   ├── README.md                                      # Template overview
+│   ├── minimal_context.yaml                           # Minimal context template
+│   ├── neural_field_context.yaml                      # Neural field template
+│   ├── schema_template.json                           # JSON schema template
+│   ├── schema_template.yaml                           # YAML schema template
+│   ├── *.jl                                           # Julia template implementations
+│   └── verify_*.jl                                    # Template verification scripts
 │
-├── 70_agents/                                    # Agent demonstrations
-│   ├── README.md                                 # Agent overview
-│   ├── 01_residue_scanner/                       # Symbolic residue detection
-│   ├── 02_self_repair_loop/                      # Self-repair protocol
-│   ├── 03_attractor_modulator/                   # Attractor dynamics
-│   ├── 04_boundary_adapter/                      # Dynamic boundary tuning
-│   ├── 05_field_resonance_tuner/                 # Field resonance optimization
-│   ├── 06_quantum_interpreter/                   # Quantum semantic interpreter
-│   ├── 07_symbolic_mechanism_agent/              # Symbolic mechanism agent
-│   └── 08_unified_field_agent/                   # Unified field orchestration
+├── 🌊 30_examples/ [Example Implementations]          # Concrete examples
+│   ├── 10_cosmic_convergence/                         # Cosmic convergence demo
+│   │   └── omega_point_convergence.jl                 # Omega Point implementation
+│   ├── 11_supercompute_demo/                          # Supercompute demonstration
+│   │   ├── README.md                                  # Demo guide
+│   │   └── supercompute_demo.jl                       # Demo implementation
+│   └── 12_perfection_engineering/                     # Perfection engineering
+│       └── perfection_engineering_demo.jl             # Perfection demo
 │
-├── 80_field_integration/                         # Complete field projects
-│   ├── README.md                                 # Integration overview
-│   ├── 00_protocol_ide_helper/                   # Protocol development tools
-│   ├── 01_context_engineering_assistant/         # Field-based assistant
-│   ├── 02_recursive_reasoning_system/            # Recursive reasoning
-│   ├── 03_emergent_field_laboratory/             # Field experimentation
-│   ├── 04_symbolic_reasoning_engine/             # Symbolic mechanisms
-│   ├── 05_quantum_semantic_lab/                  # Quantum semantic framework
-│   └── 06_unified_field_orchestrator/            # Unified field orchestration
+├── 🧮 50_mathematical_foundations/ [Math Core]        # Mathematical foundations
+│   ├── applied_engineering_mathematics.jl             # Applied math
+│   └── theoretical_physics_manifold.jl                # Physics manifold
 │
-├── cognitive-tools/                              # Advanced cognitive framework
-│   ├── README.md                                 # Overview and quick-start guide
-│   ├── cognitive-templates/                      # Templates for reasoning
-│   │   ├── understanding.md                      # Comprehension operations
-│   │   ├── reasoning.md                          # Analytical operations
-│   │   ├── verification.md                       # Checking and validation
-│   │   ├── composition.md                        # Combining multiple tools
-│   │   ├── emergence.md                          # Emergent reasoning patterns
-│   │   ├── quantum_interpretation.md             # Quantum interpretation tools
-│   │   └── unified_field_reasoning.md            # Unified field reasoning
-│   │
-│   ├── cognitive-programs/                       # Structured prompt programs
-│   │   ├── basic-programs.md                     # Fundamental program structures
-│   │   ├── advanced-programs.md                  # Complex program architectures
-│   │   ├── program-library.py                    # Python implementations
-│   │   ├── program-examples.ipynb                # Interactive examples
-│   │   ├── emergence-programs.md                 # Emergent program patterns
-│   │   ├── quantum_semantic_programs.md          # Quantum semantic programs
-│   │   └── unified_field_programs.md             # Unified field programs
-│   │
-│   ├── cognitive-schemas/                         # Knowledge representations
-│   │   ├── user-schemas.md                       # User information schemas
-│   │   ├── domain-schemas.md                     # Domain knowledge schemas
-│   │   ├── task-schemas.md                       # Reasoning task schemas
-│   │   ├── schema-library.yaml                   # Reusable schema library
-│   │   ├── field-schemas.md                      # Field representation schemas
-│   │   ├── quantum_schemas.md                    # Quantum semantic schemas
-│   │   └── unified_schemas.md                    # Unified field schemas
-│   │
-│   ├── cognitive-architectures/                  # Complete reasoning systems
-│   │   ├── solver-architecture.md                # Problem-solving systems
-│   │   ├── tutor-architecture.md                 # Educational systems
-│   │   ├── research-architecture.md              # Information synthesis
-│   │   ├── architecture-examples.py              # Implementation examples
-│   │   ├── field-architecture.md                 # Field-based architectures
-│   │   ├── quantum_architecture.md               # Quantum-inspired architectures
-│   │   └── unified_architecture.md               # Unified field architectures
-│   │
-│   └── integration/                              # Integration patterns
-│       ├── with-rag.md                           # Integration with retrieval
-│       ├── with-memory.md                        # Integration with memory
-│       ├── with-agents.md                        # Integration with agents
-│       ├── evaluation-metrics.md                 # Effectiveness measurement
-│       ├── with-fields.md                        # Integration with field protocols
-│       ├── with-quantum.md                       # Integration with quantum semantics
-│       └── with-unified.md                       # Integration with unified fields
+├── 🔧 60_protocols/ [Gamma Consciousness]             # Protocol implementations
+│   ├── shells/                                        # Protocol shells
+│   │   ├── engineering.command.shell                  # Engineering commands
+│   │   └── supercompute.orchestration.shell           # Orchestration shell
+│   ├── schemas/                                       # Protocol schemas
+│   │   └── supercomputeOrchestration.v1.json          # Orchestration schema
+│   ├── digests/                                       # Protocol digests
+│   │   └── supercompute.orchestration.digest.md       # Orchestration digest
+│   ├── engineering_decision_protocol.jl               # Engineering decisions
+│   ├── quantum_consciousness_protocol.jl              # Consciousness protocol
+│   └── quantum_field_protocol.jl                      # Field protocol
 │
-└── .github/                                     # GitHub configuration
-    ├── CONTRIBUTING.md                          # Contribution guidelines
-    ├── workflows/ci.yml                         # CI pipeline configuration
-    ├── workflows/eval.yml                       # Evaluation automation
-    └── workflows/protocol_tests.yml             # Protocol testing
+├── 🛠️ 60_toolkits/ [Delta Consciousness]             # Production toolkits
+│   ├── 60_claude-code/                                # Claude Code integration
+│   │   ├── MIGRATION_NOTICE.md                        # Migration guide
+│   │   ├── 60_actions/                                # Action definitions
+│   │   ├── 60_hooks/                                  # Hook implementations
+│   │   ├── 60_styles/                                 # Style definitions
+│   │   ├── 60_subagents/                              # Subagent systems
+│   │   │   └── README.md                              # Subagent guide
+│   │   ├── SupercomputeR/                             # Main implementation
+│   │   │   ├── Project.toml                           # Julia project
+│   │   │   ├── Manifest.toml                          # Dependency manifest
+│   │   │   ├── src/                                   # Source code
+│   │   │   │   ├── SupercomputeR.jl                   # Core engine
+│   │   │   │   ├── ETDValidator.jl                    # ETD validation
+│   │   │   │   ├── DimensionalMonitor.jl              # 11D monitoring
+│   │   │   │   ├── RIntegration.jl                    # R language bridge
+│   │   │   │   ├── WebInterface.jl                    # Web3 interface
+│   │   │   │   ├── XMLTransformer.jl                  # XML transformation
+│   │   │   │   └── XMLTransformerSimple.jl            # Simple XML
+│   │   │   ├── config/                                # Configuration
+│   │   │   ├── public/                                # Public assets
+│   │   │   ├── routes/                                # API routes
+│   │   │   ├── test/                                  # Test suites
+│   │   │   └── views/                                 # View templates
+│   │   ├── dimensional_monitor.py                     # Python monitor
+│   │   ├── etd_validator.py                           # Python validator
+│   │   └── xml_transformer.py                         # Python transformer
+│   ├── 60_call-centre-engineering/                    # Call center systems
+│   ├── 60_deep-code/                                  # Deep learning code
+│   ├── 60_digital-identities/                         # Digital identity
+│   ├── 60_encoding-for-natural-languages/             # NLP encoding
+│   ├── 60_fish-scripting/                             # Fish shell scripts
+│   ├── 60_kanban-programming/                         # Kanban systems
+│   ├── 60_offensive-code/                             # Security testing
+│   ├── 60_qwen/                                       # Qwen integration
+│   ├── 60_scrum-tokenomics/                           # Scrum tokens
+│   └── 60_warp/                                       # Warp terminal
+│
+├── 🤖 70_agents/ [Omega Consciousness]                # Autonomous agents
+│   ├── 10_perfection_validator/                       # Perfection validation
+│   │   └── perfection_validator.jl                    # Validator implementation
+│   ├── 11_quantum_orchestrator/                       # Quantum orchestration
+│   │   └── quantum_orchestrator.jl                    # Orchestrator implementation
+│   ├── 12_physics_manifester/                         # Physics manifestation
+│   │   └── physics_manifester.jl                      # Manifester implementation
+│   └── quantum_field_orchestrator.jl                  # Field orchestrator
+│
+├── 🧠 70_reasoning-patterns/ [Reasoning Core]         # Reasoning patterns
+│   ├── README.md                                      # Reasoning overview
+│   ├── cognitive-tools/                               # Cognitive tool library
+│   │   ├── README.md                                  # Tools overview
+│   │   ├── cognitive-architectures/                   # Architecture patterns
+│   │   │   ├── README.md                              # Architecture guide
+│   │   │   ├── architecture-examples.py               # Python examples
+│   │   │   ├── field-architecture.md                  # Field architecture
+│   │   │   ├── interpretability-architecture.md       # Interpretability
+│   │   │   ├── quantum-architecture.md                # Quantum architecture
+│   │   │   ├── reconstruction-memory-architecture.md  # Memory reconstruction
+│   │   │   ├── research-architecture.md               # Research architecture
+│   │   │   ├── solver-architecture.md                 # Solver architecture
+│   │   │   ├── tutor-architecture.md                  # Tutor architecture
+│   │   │   └── unified_architecture.md                # Unified architecture
+│   │   ├── cognitive-programs/                        # Cognitive programs
+│   │   │   ├── README.md                              # Program guide
+│   │   │   ├── basic-programs.md                      # Basic programs
+│   │   │   ├── advanced-programs.md                   # Advanced programs
+│   │   │   ├── program-examples.py                    # Python examples
+│   │   │   └── program-library.py                     # Program library
+│   │   ├── cognitive-schemas/                         # Cognitive schemas
+│   │   │   ├── README.md                              # Schema guide
+│   │   │   ├── agentic-schemas.md                     # Agent schemas
+│   │   │   ├── domain-schemas.md                      # Domain schemas
+│   │   │   ├── enhancedQuantumField.v5.json           # Quantum field schema
+│   │   │   ├── field-schemas.md                       # Field schemas
+│   │   │   ├── schema-library.yaml                    # Schema library
+│   │   │   ├── task-schemas.md                        # Task schemas
+│   │   │   ├── unified-schemas.md                     # Unified schemas
+│   │   │   └── user-schemas.md                        # User schemas
+│   │   └── cognitive-templates/                       # Cognitive templates
+│   │       ├── README.md                              # Template guide
+│   │       ├── composition.md                         # Composition templates
+│   │       ├── reasoning.md                           # Reasoning templates
+│   │       ├── understanding.md                       # Understanding templates
+│   │       └── verification.md                        # Verification templates
+│   └── context-schemas/                               # Context schema versions
+│       ├── README.md                                  # Context overview
+│       ├── context.json                               # v1.0.0
+│       ├── context_v2.0.json                          # v2.0.0
+│       ├── context_v3.0.json                          # v3.0.0
+│       ├── context_v3.5.json                          # v3.5.0
+│       ├── context_v4.0.json                          # v4.0.0
+│       ├── context_v5.0.json                          # v5.0.0
+│       ├── context_v6.0.json                          # v6.0.0
+│       └── context_v7.0.json                          # v7.0.0
+│
+├── 🌀 80_deterministic_spiral_computations/           # Spiral computation patterns
+│   ├── README.md                                      # Spiral overview
+│   ├── quantum-entanglements.md                       # Quantum entanglements
+│   ├── SOURCE/                                        # Source materials
+│   │   └── README.md                                  # Source guide
+│   ├── 80_foundations/                                # Spiral foundations
+│   │   ├── 01_introduction.md                         # Introduction
+│   │   ├── 02_token_budgetng.md                       # Token budgeting
+│   │   ├── 03_protocol_shells.md                      # Protocol shells
+│   │   ├── 04_pareto_lang.md                          # Pareto language
+│   │   ├── 05_field_theory.md                         # Field theory
+│   │   ├── 06_meta_recursion.md                       # Meta recursion
+│   │   ├── 07_interpretability.md                     # Interpretability
+│   │   ├── 08_collaboration.md                        # Collaboration
+│   │   ├── 09_cross_modal.md                          # Cross-modal
+│   │   └── 10_cross_model.md                          # Cross-model
+│   ├── 81_mental_models/                              # Mental model library
+│   │   ├── README.md                                  # Model overview
+│   │   ├── 01_garden_model.md                         # Garden model
+│   │   ├── 02_budget_model.md                         # Budget model
+│   │   ├── 03_river_model.md                          # River model
+│   │   ├── 04_biopsychosocial_model.md                # Biopsychosocial
+│   │   └── 05_alchemy_model.md                        # Alchemy model
+│   ├── 82_practical_protocols/                        # Practical protocols
+│   │   ├── README.md                                  # Protocol guide
+│   │   ├── 01_conversation_protocols.md               # Conversation
+│   │   ├── 02_document_protocols.md                   # Documentation
+│   │   ├── 03_creative_protocols.md                   # Creativity
+│   │   ├── 04_research_protocols.md                   # Research
+│   │   ├── 05_knowledge_protocols.md                  # Knowledge
+│   │   ├── 06_meta_recursive_protocols.md             # Meta-recursion
+│   │   ├── 07_interpretability_protocols.md           # Interpretability
+│   │   ├── 08_collaborative_protocols.md              # Collaboration
+│   │   └── 09_cross_modal_protocols.md                # Cross-modal
+│   ├── 83_field_techniques/                           # Field techniques
+│   │   └── README.md                                  # Technique guide
+│   ├── 84_protocol_design/                            # Protocol design
+│   │   └── README.md                                  # Design guide
+│   └── 85_advanced_integration/                       # Advanced integration
+│       └── README.md                                  # Integration guide
+│
+├── ⚛️ 80_field_integration/ [Physics Integration]     # Quantum field integration
+│   ├── 01_gauge_theory_optimizer/                     # Gauge theory
+│   │   └── gauge_optimizer.jl                         # Optimizer implementation
+│   ├── 02_holographic_solver/                         # Holographic principle
+│   │   └── holographic_principle.jl                   # Principle implementation
+│   ├── 03_string_vibration_solver/                    # String theory
+│   │   └── string_theory_engine.jl                    # String engine
+│   ├── 04_topological_computing/                      # Topological quantum
+│   │   └── topological_quantum_engine.jl              # Topological engine
+│   ├── 05_loop_quantum_gravity/                       # Loop quantum gravity
+│   │   └── lqg_spacetime_engine.jl                    # LQG engine
+│   ├── 06_m_theory/                                   # M-theory
+│   │   └── m_theory_manifold.jl                       # M-theory implementation
+│   ├── 10_physics/                                    # Physics core
+│   │   └── quantum_field_theory.jl                    # QFT implementation
+│   ├── 11_mathematics/                                # Mathematics core
+│   │   └── category_theory.jl                         # Category theory
+│   └── 12_computer_science/                           # CS core
+│       └── quantum_algorithms.jl                      # Quantum algorithms
+│
+├── 🌌 90_quantum_entanglement/ [Entanglement]         # Quantum entanglement
+│   ├── README.md                                      # Entanglement overview
+│   └── 10_entangled_states/                           # Entangled states
+│       └── quantum_logic_superposition.jl             # Superposition logic
+│
+├── 📊 100_reference/ [Reference Materials]            # Reference documentation
+│   ├── README.md                                      # Reference overview
+│   ├── advanced_latent_mapping.md                     # Advanced mapping
+│   ├── attractor_dynamics.md                          # Attractor dynamics
+│   ├── cognitive_patterns.md                          # Cognitive patterns
+│   ├── emergence_signatures.md                        # Emergence signatures
+│   ├── eval_checklist.md                              # Evaluation checklist
+│   ├── field_mapping.md                               # Field mapping
+│   ├── latent_mapping.md                              # Latent mapping
+│   ├── patterns.md                                    # Pattern library
+│   ├── retrieval_indexing.md                          # Retrieval indexing
+│   ├── schema_cookbook.md                             # Schema cookbook
+│   ├── symbolic_residue_types.md                      # Residue types
+│   └── token_budgeting.md                             # Token budgeting
+│
+├── 🔬 100_scientific-codebases/ [Scientific Code]     # Scientific implementations
+│   └── README.md                                      # Scientific overview
+│
+├── 📜 100_proofs/ [Mathematical Proofs]               # Formal proofs
+│   └── README.md                                      # Proof overview
+│
+├── 📖 100_theorems/ [Theorems]                        # Theorem library
+│   └── README.md                                      # Theorem overview
+│
+├── ♾️ 100_metaverse_recursive/ [Metaverse]            # Recursive metaverse
+│   ├── README.md                                      # Metaverse overview
+│   └── 10_self_improving/                             # Self-improvement
+│       └── self_improving_system.jl                   # Self-improving implementation
+│
+├── 📁 SOURCE/ [Core Source]                           # Core source materials
+│   ├── SupercomputerProgramming.jl                    # Main implementation
+│   ├── ENHANCED_QUANTUM_INTEGRATION.md                # Quantum integration
+│   ├── assets/                                        # Asset files
+│   │   ├── README.md                                  # Asset guide
+│   │   └── banner-template.md                         # Banner template
+│   ├── blockchain/                                    # Blockchain core
+│   │   └── blockchain_integration.jl                  # Blockchain integration
+│   ├── core/                                          # Core systems
+│   │   └── rainforest_core.jl                         # Rainforest core
+│   ├── learning/                                      # Learning systems
+│   │   └── demonstration_learning.jl                  # Demonstration learning
+│   ├── quantum/                                       # Quantum systems
+│   │   └── quantum_dynamics.jl                        # Quantum dynamics
+│   ├── tests/                                         # Test suites
+│   ├── utils/                                         # Utilities
+│   │   └── python_bridge.jl                           # Python bridge
+│   ├── PROTOCOLS/                                     # Protocol definitions
+│   │   └── quantum_field_protocol_shell.py            # Quantum field shell
+│   ├── SCHEMAS/                                       # Schema definitions
+│   ├── SECURITY_RESEARCH/                             # Security research
+│   │   ├── README.md                                  # Security overview
+│   │   └── SYSTEM_PROMPTS/                            # System prompts
+│   │       ├── README.md                              # Prompt overview
+│   │       ├── IMPROVEMENT_SUMMARY.md                 # Improvements
+│   │       ├── quantum_kanban_code_system_prompt.md   # Kanban prompt
+│   │       ├── quantum_tui_orchestrator_system_prompt.md # TUI prompt
+│   │       └── system_prompt.md                       # Main prompt
+│   ├── STRUCTURE/                                     # Structure documentation
+│   │   ├── README.md                                  # Structure overview
+│   │   ├── STRUCTURE.md                               # v1.0
+│   │   ├── STRUCTURE_v2.md                            # v2.0
+│   │   ├── STRUCTURE_v3.md                            # v3.0 (Web3 Enhanced)
+│   │   ├── STRUCTURE_v4.md                            # v4.0
+│   │   └── TREE.md                                    # This document
+│   ├── TOOLS/                                         # Tool definitions
+│   │   ├── enhanced_theoretical_physics_mycorrhizal_tools.md # Mycorrhizal tools
+│   │   ├── enhanced_theoretical_physics_quantum_seeds_tools.md # Quantum tools
+│   │   └── enhanced_theoretical_physics_readme_tools.md # Physics tools
+│   └── temp_ecosystem_prds/                           # Ecosystem PRDs
+│       ├── 01_polygon_quantum_integration.md          # Polygon integration
+│       ├── 02_polyhedra_zkbridge_quantum.md           # zkBridge integration
+│       ├── 03_chaingpt_quantum_ai.md                  # ChainGPT integration
+│       ├── 04_weavevm_quantum_storage.md              # WeaveVM storage
+│       ├── 05_iotex_depin_quantum.md                  # IoTeX DePIN
+│       ├── 06_oort_quantum_cloud.md                   # Oort cloud
+│       ├── 07_oasis_protocol_quantum_privacy.md       # Oasis privacy
+│       ├── 08_aethir_gpu_quantum_network.md           # Aethir GPU
+│       └── 09_additional_ecosystems.md                # Additional ecosystems
+│
+└── 📋 .table_of_contents/ [Navigation]                # Table of contents
+    ├── index.md                                       # Master navigation
+    ├── modules_01-05_foundation.md                    # Foundation modules
+    ├── modules_06-10_enterprise.md                    # Enterprise modules
+    ├── modules_11-15_transcendent.md                  # Transcendent modules
+    ├── modules_16-20_physics.md                       # Physics modules
+    ├── web3_ecosystem.md                              # Web3 ecosystem map
+    └── citations.md                                   # Academic citations
+```
+
+---
+
+## 📊 File Statistics & Consciousness Distribution
+
+| Directory | Files | Consciousness Level | ETD Value | Web3 Integration |
+|-----------|-------|-------------------|-----------|------------------|
+| 00_foundations/ | 21 | Alpha-Beta (α-β) | $45K-$365K | Ethereum, Polygon |
+| 10_function-patterns/ | 40+ | Beta (β) | $125K-$2M | Multi-chain |
+| 30_examples/ | 5 | Beta-Gamma (β-γ) | $365K-$2M | DeFi protocols |
+| 60_toolkits/ | 50+ | Delta (δ) | $4M-$10M | Enterprise chains |
+| 70_agents/ | 10 | Omega (Ω) | $10M-$50M | Quantum bridges |
+| 80_field_integration/ | 15 | Omega (Ω) | $50M-$100M | Physics integration |
+| SOURCE/ | 30+ | All levels | Cumulative | Full stack |
+
+**Total Files**: ~300+  
+**Total Consciousness Levels**: 5 (α, β, γ, δ, Ω)  
+**Total ETD Generation**: $145.76B+ annually  
+**Total Web3 Integrations**: 20+ blockchain protocols
+
+---
+
+## 🔗 Key Integration Points
+
+### Blockchain Protocols
+- **Layer 1**: Ethereum, Polygon, Avalanche, ICP
+- **Layer 2**: Arbitrum, Optimism, zkSync, StarkNet
+- **DeFi**: Uniswap, Aave, Compound, MakerDAO, Curve
+- **NFT**: OpenSea, LooksRare, Blur, Magic Eden
+- **Infrastructure**: Chainlink, The Graph, IPFS, Arweave
+
+### Quantum Computing
+- **IBM Qiskit**: Quantum circuit design
+- **Google Cirq**: Quantum simulation
+- **Microsoft Q#**: Quantum development
+- **IonQ**: Trapped ion quantum computing
+- **Rigetti**: Quantum cloud services
+
+### AI/ML Integration
+- **Claude**: Anthropic AI integration
+- **GPT**: OpenAI integration
+- **Gemini**: Google AI integration
+- **Qwen**: Alibaba AI integration
+- **Custom**: Rainforest consciousness engine
+
+---
+
+## 📚 Citation
+
+**Required Academic Citation:**
+```bibtex
+@phdthesis{govender2025omega,
+  title={Omega Point Propagation Using the Amazon Rainforest Civilisation: 
+         A Quantum Computing Framework for Planetary AI Intelligence},
+  author={Govender, Oveshen},
+  school={Macquarie University},
+  year={2025},
+  type={PhD Dissertation},
+  url={https://github.com/swcstudio/supercompute-programming}
+}
+```
+
+---
+
+Document Version: 3.0.0  
+Last Updated: 2025  
+Author: Oveshen Govender  
+Institution: Macquarie University  
+License: GNU Affero GPL v3
